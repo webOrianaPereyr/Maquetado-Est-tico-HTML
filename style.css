@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background-color:rgb(255, 255, 255);
+
+}
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 25px;
+    background-color: rgb(180, 182, 177);
+}
+
+img{
+    width: 230px;
+    height: 90px;
+    padding: 25px;
+}
+
+a{
+    color: rgb(46, 92, 129);
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bold;
+    
+   
+   
+}
+
+div>*{
+    margin-right: 40px;
+    padding: 6px 8px;
+    border-radius: 5px;
+}
+
+.login{
+    background-color: bisque;
+    color: rgb(104, 55, 55);
+    border-radius: 20px;
+    border-color: rgb(128, 131, 131);
+    padding: 10px 24px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.login:hover{
+    background-color: rgb(168, 167, 167);
+    color: white;
+}
+
+.buttons{
+    min-width: 700px;
+    display: flex;
+    justify-content:center;
+    position: relative;
+    left: 850px;
+   bottom: 60;
+    
+}
+
+.buttons a{
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    line-height: 49px;
+    color: rgb(73, 73, 73);
+    border-radius: 50%;
+    transition: all .4s ease-in-out;
+}
+
+.buttons a:hover{
+    transform: scale(1.2);
+}
+
+.rectangulo{
+    width: 1360px;
+    height: 400px;
+    background-color:cornflowerblue;
+}
+
+.cuadrado{
+    width: 1360px;
+    height: 300px;
+    background-color:rgb(168, 96, 216);
+
+}
+.portfolio{
+    width: 1360px;
+    height: 600px;
+    background-color:rgb(203, 214, 44);
+}
+
+.proyecto{
+    width: 1360px;
+    height: 250px;
+    background-color:rgb(109, 236, 115);
+}
+
+.contact{
+    width: 1360px;
+    height: 200px;
+    background-color:rgb(229, 168, 241);
+}
